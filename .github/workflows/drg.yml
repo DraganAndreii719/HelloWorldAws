@@ -12,5 +12,8 @@ jobs:
     steps:
 
       - name: clone changes
-        working-directory: /var/www/Flask.py
+        working-directory: /var/www/HelloWorldAws
         run: git pull
+        
+      - name: pm2 restart
+        run: pm2 restart 0
