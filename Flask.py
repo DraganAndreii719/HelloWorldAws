@@ -4,6 +4,6 @@ app = Flask(__name__)
  
 @app.route('/hello')
 def hello():
-    return 'Hello World up'
+    return 'Hello World! te rog eu sa mergi'
  
 app.run(host='localhost', port=5000)
