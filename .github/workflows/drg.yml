@@ -12,5 +12,5 @@ jobs:
     steps:
 
       - name: clone changes
-        working-directory: /var/www
+        working-directory: /var/www/Flask.py
         run: git pull
